@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Compression Tool</title>
+</head>
+<body>
+    <input type="file" id="imageInput" accept="image/*">
+    <select id="compressionLevel">
+        <option value="1">Low</option>
+        <option value="5">Medium</option>
+        <option value="10">High</option>
+    </select>
+    <button onclick="compressImage()">Compress Image</button>
+    <img id="originalImage" alt="Original Image">
+    <img id="compressedImage" alt="Compressed Image">
+    
+    <script src="main.js"></script>
+</body>
+</html>
